@@ -1,0 +1,22 @@
+#mini-2{
+    background-color:#131313;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.mini-2{
+    display: flex;
+        gap: 10px;
+        color: white;
+        align-items: center;
+        padding-left: 20px;
+}
+
+@media (max-width:340px) {
+    .mini-2 {
+        align-items: center;
+    }
+
+}

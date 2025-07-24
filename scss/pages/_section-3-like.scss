@@ -1,0 +1,39 @@
+#like{
+    background-color: #131313ee;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.like{
+    display: grid;
+   grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.card__like{
+    color: white;
+}
+
+
+.card__like-2{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+}
+
+.like__menus{
+    color:#C9C9C9 ;
+    line-height: 40px;
+
+}
+
+@media (max-width:875px) {
+    .like{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

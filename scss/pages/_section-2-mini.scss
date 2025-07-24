@@ -1,0 +1,20 @@
+#mini{
+    background-color:#131313 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.abo{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+@media (max-width:340px) {
+    .abo{
+        align-items: center;
+    }
+    
+}

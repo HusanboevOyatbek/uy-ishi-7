@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+
+}
+
+.menu li a {
+    color: white;
+
+}
+
+
+.btn__none {
+    display: none;
+    max-width: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+
+}
+
+
+@media (max-width:450px) {
+
+    .menu {
+        display: none;
+    }
+
+    .btn__none {
+        display: block;
+    }
+
+}

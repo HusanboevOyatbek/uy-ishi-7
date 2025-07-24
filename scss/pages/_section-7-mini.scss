@@ -1,0 +1,21 @@
+#mini-3 {
+    background-color: #131313;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mini-3{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+@media (max-width:340px) {
+    .mini-3{
+        align-items: center;
+    }
+
+}

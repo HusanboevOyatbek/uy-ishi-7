@@ -1,0 +1,75 @@
+#map-6{
+    background-color: #131313ee;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.bosh{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 70px;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.bolim{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #131313;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.imput input{
+    padding: 20px;
+    max-width: 300px;
+    height: 30px;
+    width: 100%;
+}
+
+
+.imput button{
+    max-width: 150px;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #55B055;
+    color: white;
+    border-color: #55B055;
+}
+
+
+@media (max-width:700px) {
+    .mapp{
+        width: 300px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .bosh{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+   
+}
+
+
+@media (max-width:370px) {
+    .bolim {
+            font-size: 7px;
+            max-width: 200px;
+            width: 100%;
+        }
+}

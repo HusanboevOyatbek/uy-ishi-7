@@ -1,0 +1,51 @@
+#news{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #131313ee;
+}
+
+.hotel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+}
+
+
+.hona{
+    text-align: center;
+    background-color:#131313 ;
+    padding: 20px;
+    color: white;
+}
+
+
+.hona h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hona button{
+    margin-top: 20px;
+    max-width: 100px;
+    width: 100%;
+    padding: 5px;
+    background-color: #131313;
+    color: white;
+    border: 5px 5px;
+    
+}
+
+
+@media (max-width:1296px) {
+    .hotel{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:1168px) {
+    .hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
